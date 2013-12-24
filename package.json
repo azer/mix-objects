@@ -1,0 +1,22 @@
+{
+  "name": "mix-objects",
+  "version": "0.0.0",
+  "description": "Mix specified objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "object",
+    "mix"
+  ],
+  "repository": {
+    "url": "git@github.com:azer\/mix-objects.git",
+    "type": "git"
+  },
+  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
