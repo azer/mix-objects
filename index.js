@@ -1,16 +1,22 @@
-module.exports = mix;
+module.exports = multiple;
+module.exports.one = one;
 
-function mix (target, sources) {
+function multiple (target, sources) {
   var i = -1;
   var len = sources.length;
   var key;
 
   while (++i < len) {
-    for (key in sources[i]) {
-      if (target.hasOwnProperty(key)) continue;
-      target[key] = sources[i][key];
-    }
+    one(target, sources[i]);
   }
 
   return target;
+}
+
+function one (target, source) {
+  var key;
+  for (key in source) {
+    if (target.hasOwnProperty(key)) continue;
+    target[key] = source[key];
+  }
 }
