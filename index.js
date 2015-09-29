@@ -14,6 +14,8 @@ function multiple (target, sources) {
 }
 
 function one (target, source) {
+  if (!source) return;
+
   var key;
   for (key in source) {
     if (target.hasOwnProperty(key)) continue;

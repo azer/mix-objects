@@ -4,10 +4,10 @@
   "description": "Mix specified objects",
   "main": "index.js",
   "scripts": {
-    "test": "prova"
+    "test": "node test"
   },
   "devDependencies": {
-    "prova": "*"
+    "prova": "^2.1.2"
   },
   "keywords": [
     "object",
