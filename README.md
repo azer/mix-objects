@@ -5,7 +5,7 @@ Mix specified objects
 ## Install
 
 ```bash
-$ npm install mix-objects
+$ npm install azer/mix-objects
 ```
 
 ## Usage
